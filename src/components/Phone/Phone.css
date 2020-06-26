@@ -1,0 +1,48 @@
+.phone {
+    border: 1px solid black;
+    width: calc(50% - 45px);
+    height: 208px;
+    float: left;
+    padding: 16px;
+    margin: 5px;
+}
+
+.phone .status {
+    padding: 10px;
+}
+
+.phone .status .detail {
+    color: blue;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.phone button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #757575;
+    color: white;
+    margin: 0 5px
+}
+
+.phone .numberInput {
+    line-height: 30px;
+    font-size: 17px;
+    width: 100px;
+}
+
+.phone button.call {
+    background-color: green;
+}
+
+.phone button.answer {
+    background-color: green;
+}
+
+.phone button.reject {
+    background-color: red;
+}
+
+.phone button.calling {
+    background-color: red;
+}
